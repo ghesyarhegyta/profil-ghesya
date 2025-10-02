@@ -16,7 +16,7 @@ html, body {
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, sans-serif;
 
-  background: url('images/bg-leopard.jpg') no-repeat center center fixed;
+  background: url('bg-leopard.jpg') no-repeat center center fixed;
   background-size: cover;
 
   color: var(--text);
@@ -325,3 +325,4 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
 }
+
