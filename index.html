@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil — Nama</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <aside class="profile">
+      <div class="avatar" id="avatar">
+        <img src="fotogw.jpg" alt="Foto Ghesya">
+      </div>
+      <div>
+        <h1 id="nama">Nama</h1>
+        <p class="lead" id="headline">19 June 2006 • Beauty Enthusiast</p>
+        <p class="signature" id="signature">Slaying the Web Dev game while keeping my lashes on point ✨</p>
+      </div>
+      <div class="info">
+        <div class="item"><strong>Location</strong><br><span id="location">Indonesia</span></div>
+        <div class="item"><strong>Email</strong><br><span id="email">nama@gmail.com</span></div>
+      </div>
+      <div class="favorite-things section">
+        <h3>Favorite Things</h3>
+        <div class="skills" id="favorites-list">
+          <span class="skill">Money</span>
+          <span class="skill">Cheese 🧀</span>
+          <span class="skill">BUMBU, my cat</span>
+          <span class="skill">Glittery Stuff</span>
+        </div>
+      </div>
+      <div class="spotify-player">
+        <iframe style="border-radius:12px" 
+          src="https://open.spotify.com/embed/track/5c3luoCub1Z1Gg74NdNtuq?utm_source=generator" 
+          width="100%" height="152" frameBorder="0" 
+          allowfullscreen="" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+          loading="lazy">
+        </iframe>
+      </div>
+      
+      <div class="friend-link">
+        <a href="https://temenku-baddie.com" target="_blank">
+          <img src="foto-kami.jpg" alt="Ghesya & Temen Baddie" class="friend-photo">
+          <p>All eyes on me & Adis - too iconic to be ignored, visit now💥💋</p>
+        </a>
+      </div>
+    </aside>
+
+    <section class="main">
+      <div class="section" id="about">
+        <h2>About Me</h2>
+        <p id="bio">Heyy, <strong>I’m</strong>...</p>
+      </div>
+
+      <div class="section" id="hobbies">
+        <h2>Hobbies</h2>
+        <div class="skills" id="hobbies-list">
+          <span class="skill">Make Up</span>
+          <span class="skill">SHOPPING SPREE!!</span>
+          <span class="skill">Cooking</span>
+          <span class="skill">Roblox</span>
+          <span class="skill">Watching ASMR</span>
+        </div>
+      </div>
+
+      <div class="section" id="skills">
+        <h2>Skills</h2>
+
+        <div class="skill-bar">
+          <span>Web Development</span>
+          <div class="bar"><div class="fill" style="--level: 85%"></div></div>
+        </div>
+
+        <div class="skill-bar">
+          <span>Editing</span>
+          <div class="bar"><div class="fill" style="--level: 70%"></div></div>
+        </div>
+
+        <div class="skill-bar">
+          <span>Makeup Artistry</span>
+          <div class="bar"><div class="fill" style="--level: 90%"></div></div>
+        </div>
+
+        <div class="skill-bar">
+          <span>Cheese Tasting 😎🧀</span>
+          <div class="bar"><div class="fill" style="--level: 100%"></div></div>
+        </div>
+      </div>
+      
+      <div class="section" id="social">
+        <h2>Social Media</h2>
+        <div class="skills">
+          <a class="btn" href="https://instagram.com/ghssyaa" target="_blank">Instagram: @ghssyaa</a>
+          <a class="btn" href="https://tiktok.com/@gechiato" target="_blank">TikTok: @gechiato</a>
+        </div>
+      </div>
+      <div class="section" id="message">
+        <h2>Slide in like a VIP 😏</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+      <footer>
+        © <span id="year"></span> — Made with ❤
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <div class="cursor"></div>
+</body>
+</html>
